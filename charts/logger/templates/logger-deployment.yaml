@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: deis-logger
-        image: quay.io/{{.Values.org}}/logger:{{.Values.docker_tag}}
+        image: {{.Values.org}}/logger:{{.Values.docker_tag}}
         imagePullPolicy: {{.Values.pull_policy}}
         env:
         - name: STORAGE_ADAPTER
