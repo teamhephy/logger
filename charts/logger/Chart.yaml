@@ -1,7 +1,8 @@
+apiVersion: v2
 name: logger
-home: https://github.com/deisthree/logger
-version: <Will be populated by the ci before publishing the chart>
-description: In-memory log buffer used by Deis Workflow.
+home: https://github.com/teamhephy/logger
+version: 2.5.3
+description: In-memory log buffer used by Hephy Workflow.
 maintainers:
-  - name: Deis Team
-    email: engineering@deis.com
+- name: Team Hephy
+  email: team@teamhephy.com
